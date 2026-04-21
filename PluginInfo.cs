@@ -1,0 +1,10 @@
+﻿namespace Nothing
+{
+    public class PluginInfo
+    {
+        public const string GUID = "org.megamind.Nothing";
+        public const string Name = "NothingTemplate";
+        public const string Description = "made by @mega.mindddd";
+        public const string Version = "1.0.0";
+    }
+}
