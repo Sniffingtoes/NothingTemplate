@@ -6,6 +6,8 @@ using UnityEngine;
 using static Nothing.Template.GunTemplate;
 using static Nothing.Template.Main;
 using static Nothing.Settings;
+using static NothingTemplate.mods.Fun;
+using NothingTemplate.mods;
 
 namespace Nothing.Template
 {
@@ -41,6 +43,7 @@ namespace Nothing.Template
                     new ButtonInfo { buttonText = "Platforms", method = () => Movement.Platforms(), isTogglable = true },
                     new ButtonInfo { buttonText = "Fly [B]", method = () => Movement.Fly(), isTogglable = true },
                     new ButtonInfo { buttonText = "TP Gun", method = () => Movement.TeleportGun(), isTogglable = true },
+                    new ButtonInfo { buttonText = "Speed Boost", method = () => Movement.SpeedBoost(), isTogglable = true },
                 },
             };
         }
