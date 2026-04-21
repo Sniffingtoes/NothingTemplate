@@ -6,8 +6,6 @@ using UnityEngine;
 using static Nothing.Template.GunTemplate;
 using static Nothing.Template.Main;
 using static Nothing.Settings;
-using static NothingTemplate.mods.Fun;
-using NothingTemplate.mods;
 
 namespace Nothing.Template
 {
