@@ -96,7 +96,7 @@ namespace Nothing.Template
 
 		public static Color menuBackgroundColor = Color.black;
 		public static Color buttonColor = Color.grey;
-		public static Color textColor = Color.white;
+		public static Color textColor = Color.powderBlue;
 		public static Color enabledColor = Color.green;
 
 		public static void CreateMenu()
@@ -169,7 +169,7 @@ namespace Nothing.Template
 				TextMeshPro tmp = txtObj.AddComponent<TextMeshPro>();
 				tmp.text = textContent;
 				tmp.fontSize = fontSize;
-				tmp.color = Color.white;
+				tmp.color = textColor;
 				tmp.alignment = TextAlignmentOptions.Center;
 				if (motdFont != null) tmp.font = motdFont;
 				RectTransform rect = tmp.GetComponent<RectTransform>();

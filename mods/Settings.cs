@@ -33,7 +33,7 @@ namespace NothingMenu.Mods
             }
             else
             {
-                NotifiLib.SendNotification("<color=white>NOT IN A ROOM</color>");
+                NotifiLib.SendNotification("<color=textColor>NOT IN A ROOM</color>");
             }
         }
     }
